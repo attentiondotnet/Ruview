@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+.venv/
+venv/
+env/
+.env
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.xml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Firmware build artefacts
+firmware/**/.pio/
+firmware/**/build/
+firmware/**/.cache/
+
+# Trained model weights (large binaries)
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.pkl
